@@ -2,7 +2,7 @@
   "name": "modal_rjmv",
   "version": "0.1.1",
   "private": false,
-  "description": "Modal for HRnet project",
+  "description": "Modal for HRnet project for a modal that show any message you want to use",
   "author": "Jean Marie RABEMANALINA",
   "keywords": [
     "react",
