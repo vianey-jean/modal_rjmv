@@ -3,6 +3,26 @@ import styled from "styled-components";
 import Cancel from "./images/cancel.png";
 import Check from "./images/check.png";
 
+/**
+ *
+ * @name Modal
+ * @description  You can change many parameters of the modal (background color of modal; the color of modal; the icon if is a success message or error message; the border of the modal; the text inside of modal; the color of the text inside modal; the shadow of the modal and you can also change the font size of the message).
+ *
+ * You can find an exemple inside App.js
+ *
+ * @param {string} showModal //true false show modal
+ * @param {string} setShowModal//close modal
+ * @param {string} content// text of the modal
+ * @param {string} backgroundColor// background color of modal
+ * @param {string} colorModal//color of the modal
+ * @param {string} contentcolor//color of the text inside modal
+ * @param {string} iconModal//icon sucess or error depending of type modal you want (sucess or error)
+ * @param {string} shadowModal//shadow of modal
+ * @param {string} borderModal//border of modal
+ * @param {string} fontSizeModal//font size of modal
+ * @returns {JSX.Element}
+ */
+
 
 const Modal = ({
   showModal,

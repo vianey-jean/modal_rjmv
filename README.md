@@ -11,7 +11,21 @@
 `Import {Modal} from 'modam_rjmv'`
 
 ---
+![logo](src/lib/components/images/modal_example.png)
 
+---
+### Prerequisites
+
+- [@babel/cli (**version 7.12.1**)](https://www.npmjs.com/package/@babel/cli)
+- [NPM (**version 8.19.2**)](https://www.npmjs.com/)
+- [REACT (**version 18.2.0**)](https://en.reactjs.org/) 
+- [React-dom(**version 18.2.0**)](https://en.reactjs.org/)
+- [VsCode](https://code.visualstudio.com/)
+- [@babel/core](https://www.npmjs.com/package/@babel/core)
+- [@babel/preset-env](https://www.npmjs.com/package/@babel/preset-env)
+- [styled-components](https://www.npmjs.com/package/styled-components) 
+
+---
 #### Usage/Example
 
 You can change the color of modal's background, you can also change the color of the modal. You can change the text and also its color and size inside the modal. You can decide which icon you want (success or error) or not put iconModal on the custom parameters. And also you can change the shadow and the border-radius of the modal.
@@ -83,4 +97,4 @@ export default App;
 
 **Here an example**
 
-  <img src='./src/lib/components/images/modalexamples.png' width="100%" />
+  <img src='./src/lib/components/images/modalexamples.png'>

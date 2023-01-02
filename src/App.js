@@ -1,6 +1,11 @@
 import Modal from "./lib/components/Modal";
 import { useState } from "react";
 
+/**
+ *Here is un exemple how to use the library modal. You can change many parameters of the modal (background color of modal; the color of modal; the icon if is a success message or error message; the border of the modal; the text inside of modal; the color of the text inside modal; the shadow of the modal and you can also change the font size of the message). If you don't want to use a specific value, just comment it or don't write.
+ * @returns {JSX.Element}
+ */
+
 
 function App() {
   //use state true/false show modal
