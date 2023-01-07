@@ -2,7 +2,7 @@ import Modal from "./lib/components/Modal";
 import { useState } from "react";
 
 /**
- *Here is un exemple how to use the library modal. You can change many parameters of the modal (background color of modal; the color of modal; the icon if is a success message or error message; the border of the modal; the text inside of modal; the color of the text inside modal; the shadow of the modal and you can also change the font size of the message). If you don't want to use a specific value, just comment it or don't write.
+ *Here is in App,  how to use the library modal. You can change many parameters of the modal (background color of modal; the color of modal; the icon if is a success message or error message; the border of the modal; the text inside of modal; the color of the text inside modal; the shadow of the modal and you can also change the font size of the message). If you don't want to use a specific value, just comment it or don't write.
  * @returns {JSX.Element}
  */
 
@@ -24,8 +24,9 @@ function App() {
         showModal={showModal}
         //close modal
         setShowModal={setShowModal}
-        //YOUR CUSTOM PARAMETERS OF MODAL IS BELOW
 
+        //YOUR CUSTOM PARAMETERS OF MODAL IS BELOW
+        //You can Change here
         backgroundColor="#16a92069" //you can change background color
         colorModal="rgba(215, 246, 207, 1)" //you can change the color of the modal
         iconModal="success" //you can change the icon success or error
@@ -34,7 +35,6 @@ function App() {
         contentcolor="green" //you can change de color of the text
         shadowModal="0 5px 16px rgba(18, 39, 3, 1)" //you can change the shadow of the modal
         fontSizeModal="2rem" //you can change the size of the text inside the modal
-
         //YOUR CUSTOM PARAMETERS OF MODAL IS ABOVE
       />
     </div>
