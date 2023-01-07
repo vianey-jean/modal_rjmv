@@ -4,6 +4,7 @@
 
 ##### Project realized by Jean Marie Vianey RABEMANALINA
 ![NPM](https://www.npmjs.com/package/modal_rjmv)
+
 ----
 
 #### To install the library:
