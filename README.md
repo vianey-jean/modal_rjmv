@@ -2,6 +2,10 @@
 
 ---
 
+##### Project realized by Jean Marie Vianey RABEMANALINA
+![NPM](https://www.npmjs.com/package/modal_rjmv)
+----
+
 #### To install the library:
 
 `npm install modam_rjmv`
@@ -47,7 +51,7 @@ For example, I have used:
 <hr>
 
 ```javascript
-import { Modal } from "modal_mm";
+import { Modal } from "modam_rjmv";
 import { useState } from "react";
 function App() {
   const [showModal, setShowModal] = useState(false);

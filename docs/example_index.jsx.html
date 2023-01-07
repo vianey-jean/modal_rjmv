@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>JSDoc: Source: App.js</title>
+    <title>JSDoc: Source: example/index.jsx</title>
 
     <script src="scripts/prettify/prettify.js"> </script>
     <script src="scripts/prettify/lang-css.js"> </script>
@@ -17,7 +17,7 @@
 
 <div id="main">
 
-    <h1 class="page-title">Source: App.js</h1>
+    <h1 class="page-title">Source: example/index.jsx</h1>
 
     
 
@@ -26,7 +26,7 @@
     
     <section>
         <article>
-            <pre class="prettyprint source linenums"><code>import Modal from "./lib/components/Modal";
+            <pre class="prettyprint source linenums"><code>import { Modal } from "modam_rjmv";
 import { useState } from "react";
 
 /**
@@ -34,12 +34,10 @@ import { useState } from "react";
  * @returns {JSX.Element}
  */
 
-
+ 
 function App() {
-  //use state true/false show modal
   const [showModal, setShowModal] = useState(false);
 
-  //open modal
   const openModal = () => {
     setShowModal((prev) => !prev);
   };
@@ -48,22 +46,18 @@ function App() {
     &lt;div className="App">
       &lt;button onClick={openModal}>Click Me&lt;/button>
       &lt;Modal
-        //show modal
         showModal={showModal}
-        //close modal
         setShowModal={setShowModal}
-        //YOUR CUSTOM PARAMETERS OF MODAL IS BELOW
-
-        backgroundColor="#16a92069" //you can change background color
-        colorModal="rgba(215, 246, 207, 1)" //you can change the color of the modal
-        iconModal="success" //you can change the icon success or error
-        borderModal="40px" //you can change border of the modal
-        content="Hello world!" //you can write any message for the modal
-        contentcolor="green" //you can change de color of the text
-        shadowModal="0 5px 16px rgba(18, 39, 3, 1)" //you can change the shadow of the modal
-        fontSizeModal="2rem" //you can change the size of the text inside the modal
-
-        //YOUR CUSTOM PARAMETERS OF MODAL IS ABOVE
+        //your custom parameters
+        backgroundColor="#16a92069"
+        colorModal="rgba(215, 246, 207, 1)"
+        iconModal="success"
+        borderModal="40px"
+        content="Hello world!"
+        contentcolor="green"
+        shadowModal="0 5px 16px rgba(18, 39, 3, 1)"
+        fontSizeModal="2rem"
+        //your custom parameters
       />
     &lt;/div>
   );
